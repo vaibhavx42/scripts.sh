@@ -4,7 +4,7 @@ echo "Basic Calculator"
 
 # Function to perform addition
 function add() {
-    # Add your code here
+    
 
     read -p "Enter the first number: " Number1
     read -p "Enter the second number: " Number2
@@ -14,7 +14,7 @@ function add() {
 
 # Function to perform subtraction
 function subtract() {
-    # Add your code here
+   
      read -p "Enter the first number: " Number1
     read -p "Enter the second number: " Number2
     result=$((Number1 - Number2))
